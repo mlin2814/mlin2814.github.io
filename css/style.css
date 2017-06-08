@@ -41,6 +41,19 @@
   text-align: center;
 }
 
+#contactButton {
+  height: 50px;
+  background-color: #00303F;
+  color: #A5A5AF;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.row {
+  text-align: center;
+  margin-top: 10%;
+}
+
 .works-list {
   position: relative;
   margin: 0;
