@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matthew Lin's Portfolio</title>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<main>
+	<img src="images/MLlogo.jpg" id="logo">
+	<container>
+		<ul id="slide-out" class="side-nav">
+      <li>
+        <div class="userView">
+          <a href="#!user"><img class="circle" src="images/DSC02440.jpg" style="width: 100px; height: 82px"></a>
+          <a href="#!name"><span class="white-text name">Matthew Lin</span></a>
+          <a href="#!email"><span class="white-text email">mlin2814@gmail.com</span></a>
+        </div>
+      </li>
+      <li>
+        <div class="bio">
+          <button data-target="modalBio" class="btn modal-trigger" id="button">Bio</button>  
+        </div>
+      </li>
+      <li> 
+        <div class="work">
+          <button data-target="modalWork" class="btn modal-trigger" id="button">Portfolio</button>  
+        </div>
+      </li>
+      <li>
+        <div class="contact">
+          <button data-target="modalContact" class="btn modal-trigger" id="button">Contact Me</button>  
+        </div>
+      </li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="medium material-icons" id="menu">menu</i></a>
+		    
+      <div id="modalBio" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Welcome</h4>
+            <section id="body">
+              <p>Well, hello there! I'm excited you came to my portfolio to learn more about me and my time as a web developer. So since you're here, let me give you the grand tour. My name is Matthew, and I'm currently looking into being a junior developer for a career change. Prior to this, I was an English teacher and my incorporation of technology into my teaching led me to seek further immersion into the technology my students and colleagues used on a daily basis. Through my time as an educator, I was able to hone my communication skills and collaborative mindset to let me work in any team environment. Lay down an objective and rest assured, I'll get right into how I can best help the team reach that objective. I'll always keep my teammates in the loop of what's going on from my end, boiling it down to the most essential parts, as my educational training has instilled in me. I find that being able to work with others and help us learn from each other to be a great experience for all those involved.</p>
+              <p>But that's all the professional side of me, and you want to know what I'm like outside of the job. I'm one of the biggest nerds you'll ever meet, and I have to convention badges to prove it. Star Wars, Marvel Comics, Steven Universe, Harry Potter, pretty much anything that is considered "nerdy", either I grew up with it or have some passing familiarity with. I love learning about all of these things, and it helps fuel my imagination for what is possible. I'm also prepared to handle lots of different situations; it pays to be prepared. You'll find me with a bag full of useful items that get me through the day efficiently and without hassle. People have called my bag the TARDIS of carry-alls. They're not wrong.</p>
+              <p>If this has interested you, and you want to know more, please contact me through any of my channels in the 'Contact' tab.</p>
+            </section>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect btn-flat" id="button">Close</a>
+        </div>
+      </div>
+			
+      <div id="modalWork" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Portfolio</h4>
+          <section class="works-box">
+            <ul class="works-list">
+              <li class="work-item">
+                <a class="item-box" href="https://github.com/mlin2814/ParkingApp" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>FreeSpace</h2>
+                      <p>A mobile application that will let users know when there are open parking spots wherever you are. (In Development)</p>
+                      <p>Technologies Used: React Native, MongoDB</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color4"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/MarkerChangeState.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+              
+              <li class="work-item">
+                <a class="item-box" href="https://guarded-wildwood-52348.herokuapp.com">
+                  <div class="text-box">
+                      <div class="text">
+                        <h2>Resume Padder</h2>
+                          <p>A resource for gathering opportunities for volunteering, community service, and internships</p>
+                          <p>Technologies Used: HTML, CSS, Bootstrap, Javascript, JQuery, Node, MySQL, Nodemailer, Handlebars, Sequelize</p>
+                      </div>
+                  </div>
+                  <div class="mask-box color3"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/ResumePadder.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+                
+              <li class="work-item">
+                <a class="item-box" href="https://agile-headland-60676.herokuapp.com/">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>Gator</h2>
+                        <p>Your personal news aggregator, drawing instant news from a variety of news providers</p>
+                        <p>Technologies Used: HTML, CSS, Materialize, Javascript, JQuery, AJAX, Firebase</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color2"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/GatorLogo.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+            
+              <li class="work-item">
+                <a class="item-box" href="https://github.com/mlin2814/firstworldproblems.git" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>First World Problem Randomizer</h2>
+                        <p>Click the button and get a random first world problem!</p>
+                        <p>Technologies Used: HTML, CSS, Javascript, JQuery, Handlebars, MySQL</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color6"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/problem.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+                
+              <li class="work-item">
+                <a class="item-box" href="https://github.com/mlin2814/bamazon.git" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>Bamazon</h2>
+                        <p>An exercise for datbase use with a major retailer analogue</p>
+                        <p>Technologies Used: Javascript, JQuery, NPM, Node.js, MySQL</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color5"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/BamazonCustomerView.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+              
+              <li class="work-item">
+                <a class="item-box" href="https://weatherpermitting.herokuapp.com/" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>Weather Permitting</h2>
+                        <p>An application that texts you custom feedback on clothing to help prepare you for the weather of the day. You will receive the daily high temperature, clothing recommendations, and whether it is raining or snowing.</p>
+                        <p>Technologies Used: Javascript, JQuery, NPM, Node.js, MongoDB, Express, Twilio API, HTML, CSS</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color4"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/WeatherPermitting.png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+              
+              <li class="work-item">
+                <a class="item-box" href="http://salty-everglades-91269.herokuapp.com/#/" class="portfolio-link">
+                  <div class="text-box">
+                      <div class="text">
+                        <h2>Weather Reaction</h2>
+                          <p>An application that searches for your weather using React and OpenWeatherMap.</p>
+                          <p>Technologies Used: React, Javascript, NPM, Node.js, CSS, Foundation, APIs</p>
+                      </div>
+                  </div>
+                  <div class="mask-box color3"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/portfolio.jpg" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+              
+              <li class="work-item">
+                <a class="item-box" href="https://github.com/mlin2814/ChallengeCardGame.git" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>Card Challenge</h2>
+                        <p>An application that lets 2-4 players play against each other in fictional card superiority! Whoever has the most points wins!</p>
+                        <p>Technologies Used: Javascript, NPM Inquirer, Node.js</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color2"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/Screenshot (23).png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+              
+              <li class="work-item">
+                <a class="item-box" href="https://calm-headland-22439.herokuapp.com/" class="portfolio-link">
+                  <div class="text-box">
+                    <div class="text">
+                      <h2>Steven Universe Trivia Game!</h2>
+                        <p>An application that tests you on your Steven Universe knowledge! Race against the clock as you try to figure out the truth in Steven's tumultuous life!</p>
+                        <p>Technologies Used: Javascript, jQuery, HTML, CSS, Bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="mask-box color1"></div>
+                  <div class="img-box"><img class="img-responsive" src="images/Screenshot (23).png" style="width:450px; height: 250px;" align="center"></div>
+                </a>
+              </li>
+            </ul>
+        </section>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect btn-flat" id="button">Close</a>
+        </div>
+      </div>
+
+      <div id="modalContact" class="modal modal-fixed-footer">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s9">
+                <input id="name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s9">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+              <div class="col s3">
+                <div class=".img-thumbnail">
+                  <a href="https://github.com/mlin2814">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" alt="GitHub" id="connection-image" style="width: 50px; height: 50px;" align="right" hspace="20">
+                  </a>  
+                  <a href="https://www.linkedin.com/in/matthew-lin-75970890">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" alt="linkedin" id="connection-image" style="width:50px; height: 50px;" align="right" hspace="20">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                Message:
+                <div class="input-field inline">
+                  <i class="material-icons edit">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <button class="btn waves-effect waves-light" id="button" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+	</container>
+	
+</main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+<script>
+	$(document).ready(function() {
+	  $('.modal-trigger').leanModal();
+	});
+
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+</script>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  
+</head>
+<body>
+
+<main>
+	<img id="logo" src="images/MLlogo.jpg">
+</main>
+      
+      <br><br>
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
+
+ -->
