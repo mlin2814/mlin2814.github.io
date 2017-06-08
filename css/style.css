@@ -1,3 +1,7 @@
+body {
+  color: #fefefe;
+}
+
 #logo {
   position: fixed;
   top: 50%;
@@ -123,4 +127,16 @@
 }
 .color6 {
   background-color:#233237;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
 }
